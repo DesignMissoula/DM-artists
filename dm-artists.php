@@ -5,11 +5,16 @@ Plugin Name: Missoula Artists
 Plugin URI: http://www.missoulamadefair.com/
 Description: Used by Millions to make WordPress better.
 Author: Bradford Knowlton
-Version: 1.6
+Version: 1.8.1
 Author URI: http://bradknowlton.com/
+
+
+GitHub Plugin URI: https://github.com/DesignMissoula/DM-artists
+GitHub Branch:     master
+
 */
 
-DEFINE('ARTIST_SLUG', 'summer_2014_');
+DEFINE('ARTIST_SLUG', 'winter_2014_');
 
 add_action( 'init', 'register_cpt_missoula_artist' );
 
